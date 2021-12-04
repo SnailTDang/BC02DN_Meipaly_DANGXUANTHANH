@@ -3,7 +3,8 @@ $(window).scroll(function () {
     var oTop = $("#counternumber").offset().top - window.innerHeight;
     if (a == 0 && $(window).scrollTop() > oTop) {
         $(".counter").each(function () {
-            var $this = $(this),
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                var $this = $(this),
                 countTo = $this.attr("data-number");
             $({
                 countNum: $this.text()
@@ -13,7 +14,7 @@ $(window).scroll(function () {
                 },
 
                 {
-                    duration: 850,
+                    duration: 3200,
                     easing: "swing",
                     step: function () {
                         //$this.text(Math.ceil(this.countNum));
@@ -29,6 +30,10 @@ $(window).scroll(function () {
                     }
                 }
             );
+              } else {
+                topbutton.style.display = "none";
+              }
+            
         });
         a = 1;
     }

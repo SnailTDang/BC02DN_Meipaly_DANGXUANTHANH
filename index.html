@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+        integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+        crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&amp;display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="wrapper">
         <header>
-                <div class="header__content container ">
-                    <div class="header__logo">
-                        <a href="" class="header__logo-link">
-                            <i class="fab fa-atlassian"></i>
-                            <span>meipaly</span>
-                        </a>
-                    </div>
-                    <nav class="navbar">
-                        <ul class="main-menu">
-                            <li class="menu__item">
-                                <a href="#" class="item__link">Home</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#" class="item__link">Serivces</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#" class="item__link">Showcase</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#" class="item__link">Blog</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#" class="item__link">About Us</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#" class="item__link">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
+            <div class="header__content container " id="header">
+                <div class="header__logo">
+                    <a href="" class="header__logo-link">
+                        <i class="fab fa-atlassian"></i>
+                        <span>meipaly</span>
+                    </a>
                 </div>
+                <nav>
+                    <ul class="main-menu" id="navbar">
+                        <li class="menu__item">
+                            <a href="#" class="item__link active">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#services" class="item__link">Serivces</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#showcase" class="item__link">Showcase</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#blog" class="item__link">Blog</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="item__link">About Us</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#contact" class="item__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <section class="banner">
             <div class="banner__content">
                 <p>WELCOME TO MEIPALY AGENCY</p>
                 <h1>SMART WEB <br>DESIGN AGENCY</h1>
-                <button id="readmore"onclick="readFunction()" title="Read more">READ MORE</button>
+                <button id="readmore" onclick="readFunction()" title="Read more">READ MORE</button>
                 <div class="banner__scroll">
                     <i class="fa fa-chevron-down"></i>
                 </div>
@@ -62,8 +66,8 @@
                 <div class="services__heading">
                     <p>SERVICES WE ARE OFFERING</p>
                     <h2>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES.</h2>
-                    <p>We are committed to providing our customers with exceptional service while offering
-                    our employees the best training.</p>
+                    <p>We are committed to providing our customers with exceptional service while offering <br>
+                        our employees the best training.</p>
                 </div>
                 <div class="services__slider">
                     <div class="services__item">
@@ -103,21 +107,22 @@
                 </div>
             </div>
         </section>
-        <section class="showcase">
+        <section class="showcase" id="showcase">
             <div class="container showcase__container">
                 <div class="showcase__content">
                     <div class="showcase__heading heading__content">
                         <p>SERVICES WE ARE OFFERING</p>
                         <h2>WORK SHOWCASE</h2>
-                        <p>We are committed to providing our customers with exceptional service while offering
-                        our employees the best training.</p>
+                        <p>We are committed to providing our customers with exceptional service while offering <br>
+                            our employees the best training.</p>
                     </div>
                     <div class="showcase__list">
                         <div class="showcase__item">
                             <img src="./assets/image/showcase_img_1.webp" alt="">
                             <div class="showcase__overlay">
                                 <div class="showcase__search">
-                                    <a href="./assets/image/showcase_img_1.webp" data-fancybox="gallery" data-caption="Caption for single image">
+                                    <a href="./assets/image/showcase_img_1.webp" data-fancybox="gallery"
+                                        data-caption="Caption for single image">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
                                 </div>
@@ -131,7 +136,8 @@
                             <img src="./assets/image/showcase_img_2.webp" alt="">
                             <div class="showcase__overlay">
                                 <div class="showcase__search">
-                                    <a href="./assets/image/showcase_img_2.webp" data-fancybox="gallery" data-caption="Caption for single image">
+                                    <a href="./assets/image/showcase_img_2.webp" data-fancybox="gallery"
+                                        data-caption="Caption for single image">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
                                 </div>
@@ -145,7 +151,8 @@
                             <img src="./assets/image/showcase_img_3.webp" alt="">
                             <div class="showcase__overlay">
                                 <div class="showcase__search">
-                                    <a href="./assets/image/showcase_img_3.webp" data-fancybox="gallery" data-caption="Caption for single image">
+                                    <a href="./assets/image/showcase_img_3.webp" data-fancybox="gallery"
+                                        data-caption="Caption for single image">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
                                 </div>
@@ -159,7 +166,8 @@
                             <img src="./assets/image/showcase_img_5.webp" alt="">
                             <div class="showcase__overlay">
                                 <div class="showcase__search">
-                                    <a href="./assets/image/showcase_img_5.webp" data-fancybox="gallery" data-caption="Caption for single image">
+                                    <a href="./assets/image/showcase_img_5.webp" data-fancybox="gallery"
+                                        data-caption="Caption for single image">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
                                 </div>
@@ -173,7 +181,8 @@
                             <img src="./assets/image/showcase_img_6.webp" alt="">
                             <div class="showcase__overlay">
                                 <div class="showcase__search">
-                                    <a href="./assets/image/showcase_img_6.webp" data-fancybox="gallery" data-caption="Caption for single image">
+                                    <a href="./assets/image/showcase_img_6.webp" data-fancybox="gallery"
+                                        data-caption="Caption for single image">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
                                 </div>
@@ -187,7 +196,8 @@
                             <img src="./assets/image/showcase_img_7.webp" alt="">
                             <div class="showcase__overlay">
                                 <div class="showcase__search">
-                                    <a href="./assets/image/showcase_img_7.webp" data-fancybox="gallery" data-caption="Caption for single image">
+                                    <a href="./assets/image/showcase_img_7.webp" data-fancybox="gallery"
+                                        data-caption="Caption for single image">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
                                 </div>
@@ -201,13 +211,13 @@
                 </div>
             </div>
         </section>
-        <secttion class="blog">
+        <section class="blog" id="blog">
             <div class="container blog-container">
                 <div class="blog__heading heading__content">
                     <p>OUR NEWS & ARTICLES</p>
                     <h2>LATEST BLOG POSTS</h2>
-                    <p>We are committed to providing our customers with exceptional service while offering
-                    our employees the best training.</p>
+                    <p>We are committed to providing our customers with exceptional service while offering <br>
+                        our employees the best training.</p>
                 </div>
                 <div class="blog__content">
                     <div class="blog__item blog__metro1">
@@ -242,7 +252,7 @@
                     </div>
                 </div>
             </div>
-        </secttion>
+        </section>
         <section class="counternumber" id="counternumber">
             <div class="container counternumber__container">
                 <div class="number__box">
@@ -252,15 +262,15 @@
                     </div>
                     <div class="number__item">
                         <p class="counter" data-number="480">0</p>
-                        <span>PROJECTS COMPLETED</span>
+                        <span>ACTIVE CLIENTS</span>
                     </div>
                     <div class="number__item">
                         <p class="counter" data-number="625">0</p>
-                        <span>PROJECTS COMPLETED</span>
+                        <span>CUPS OF COFFEE</span>
                     </div>
                     <div class="number__item">
                         <p class="counter" data-number="9774">0</p>
-                        <span>PROJECTS COMPLETED</span>
+                        <span>HAPPY CLIENTS</span>
                     </div>
                 </div>
             </div>
@@ -271,8 +281,8 @@
                     <p>HOW DO WE WORKS</p>
                     <h2>DIGITAL EXPERIENCE</h2>
                     <p>We are committed to providing our customers with exceptional service while offering our <br>
-                    employees the best training.</p>
-                </div>   
+                        employees the best training.</p>
+                </div>
                 <div class="digital__content">
                     <video controls poster="./assets/image/home_slider.jpg">
                         <source src="./assets/video/video.mp4" type="video/mp4">
@@ -280,23 +290,26 @@
                 </div>
             </div>
         </section>
-        <section class="contact" id="map">
+        <section class="contact" id="contact">
             <div class="contact-container container">
                 <div class="contact__heading heading__content">
                     <h2>CONTACT</h2>
                     <p>Thank you for your interest in our website & our services. If you have any <br>
-                    questions, please write us a message now!</p>
+                        questions, please write us a message now!</p>
                 </div>
                 <div class="contact__box">
-                    <div class="contract__map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.4553363358827!2d108.2115497152697!3d16.041844344431233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421995543ed713%3A0xc8a71a7f5bfe9cdd!2zMTAzIE5ndXnhu4VuIEjhu691IEThuq10LCBIb8OgIEPGsOG7nW5nIELhuq9jLCBI4bqjaSBDaMOidSwgxJDDoCBO4bq1bmcgNTUwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1638522648366!5m2!1svi!2s" style="border:0;" allowfullscreen="" loading="lazy">
+                    <div class="contract__map" id="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.4553363358827!2d108.2115497152697!3d16.041844344431233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421995543ed713%3A0xc8a71a7f5bfe9cdd!2zMTAzIE5ndXnhu4VuIEjhu691IEThuq10LCBIb8OgIEPGsOG7nW5nIELhuq9jLCBI4bqjaSBDaMOidSwgxJDDoCBO4bq1bmcgNTUwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1638522648366!5m2!1svi!2s"
+                            style="border:0;" allowfullscreen="" loading="lazy">
                         </iframe>
-                    </div> 
-                    <form action="/action_page.php">
-                        <input type="text" placeholder="Username">
-                        <input type="text" placeholder="Email Address">
-                        <textarea name="message" id="message" placeholder="Your message" cols="30" rows="14"></textarea>
-                        <button class="btnMei">SUBMIT</button>
+                    </div>
+                    <form action>
+                        <input type="text" placeholder="Username" required>
+                        <input type="text" placeholder="Email Address" required>
+                        <textarea name="message" id="message" placeholder="Your message" cols="30" rows="14"
+                            required></textarea>
+                        <button class="btnMess" type="submit">SUBMIT</button>
                     </form>
                 </div>
             </div>
@@ -307,17 +320,17 @@
                     <span>© 2021 UI-CYBERSOFT. ALL RIGHTS RESERVED.</span>
                     <ul class="footer__links">
                         <li class="links__item"><a href="#">
-                            <i class="fab fa-facebook-f"></i>
-                        </a></li>
+                                <i class="fab fa-facebook-f"></i>
+                            </a></li>
                         <li class="links__item"><a href="#">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a></li>
+                                <i class="fab fa-linkedin-in"></i>
+                            </a></li>
                         <li class="links__item"><a href="#">
-                            <i class="fab fa-youtube"></i>
-                        </a></li>
+                                <i class="fab fa-youtube"></i>
+                            </a></li>
                         <li class="links__item"><a href="#">
-                            <i class="fab fa-twitter"></i>
-                        </a></li>
+                                <i class="fab fa-twitter"></i>
+                            </a></li>
                     </ul>
                 </div>
             </div>
@@ -325,15 +338,18 @@
         <button onclick="topFunction()" id="toTop" title="Go to top"><i class="fa fa-angle-double-up"></i></button>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" 
-    crossorigin="anonymous" 
-    referrerpolicy="no-referrer">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous"></script>
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+        integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+        crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="./assets/js/slick.js"></script> 
+    <script src="./assets/js/slick.js"></script>
     <script src="./assets/js/counter.js"></script>
     <script src="./assets/js/active.js"></script>
     <script src="./assets/js/fancybox.js"></script>
+    <script src="./assets/js/menu.js"></script>
 </body>
+
 </html>
