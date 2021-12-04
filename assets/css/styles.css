@@ -24,6 +24,10 @@ header {
     z-index: 999;
 }
 
+section, footer {
+    padding: 110px 0;
+}
+
 .header__content {
     display: flex;
     justify-content: space-between;
@@ -128,7 +132,6 @@ header {
 
 
 .services {
-    padding: 90px 0;
     background-color: #000;
 }
 
@@ -231,10 +234,6 @@ header {
 
 .slick-dots button:hover {
     background-color: #fff;
-}
-
-.showcase {
-    padding: 100px 0;
 }
 
 .heading__content {
@@ -340,7 +339,7 @@ header {
 }
 
 .blog {
-    padding: 100px 0;
+    
     background-color: #F3F3F3;
 }
 
@@ -383,7 +382,7 @@ header {
 }
 
 .number__box {
-    padding: 100px 0;
+    
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -405,7 +404,7 @@ header {
 }
 
 .digital {
-    padding: 100px 0;
+    
     background: url('../image/bussiness_img_1.jpg') center/ cover no-repeat;
     background-attachment: fixed;
 }
@@ -480,7 +479,7 @@ header {
 
 footer {
     background-color: #000;
-    padding: 100px 0;
+    
 }
 
 .footer__content {
@@ -498,11 +497,11 @@ footer {
     width: 54px;
     height: 54px;
     border-radius: 50%;
-    line-height: 54px;
+    line-height: 50px;
     text-align: center;
     display: inline-block;
     background-color: #fff3;
-    font-size: 18px;
+    font-size: 22px;
     text-decoration: none;
     color: #fff;
     transition: all .5s;
