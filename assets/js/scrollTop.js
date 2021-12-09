@@ -1,14 +1,22 @@
 //Get the button
 const topbutton = document.getElementById("toTop");
+
+const header  = document.getElementById('header')
+
+const bgheader = "#000"
+const defautbg = "#000000ad"
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
     topbutton.style.display = "block";
+    header.style.backgroundColor = bgheader;
   } else {
     topbutton.style.display = "none";
-  }
+    header.style.backgroundColor = defautbg;
+
+  } 
 }
 
 // When the user clicks on the button, scroll to the top of the document
